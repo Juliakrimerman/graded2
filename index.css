@@ -1,0 +1,139 @@
+body {
+  background: url(https://i.pinimg.com/originals/12/74/6f/12746f33f6e81efa76d7f4490201ce2d.png)no-repeat fixed center; 
+  background-size: cover;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  text-align: center;
+}
+.logo {
+ width: 150px; height: 150px; display: block; text-indent: -9999px;
+ margin: auto;
+}
+
+input.answer[type="radio"]:checked + span {
+  color: bisque;
+}
+
+
+fieldset {
+  border: none;
+  display:flex;
+  flex-direction: column;
+  font-size: 35px;
+
+}
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    font-family: 'Dancing Script', cursive;
+    width: 200px;
+    font-size: 40px;
+    font-weight: 600;
+    color: bisque;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+.btn-hover.color-3 {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+
+h2 {
+  margin-top: 30px;
+    text-shadow: 2px 2px 2px peachpuff;
+   font-size: 40px;
+     text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+    text-shadow: 2px 2px 4px #000000;
+      text-align: center;
+      margin-top: 20px;
+}
+
+
+h3 {
+  font-size: 40px;
+ text-shadow: 1px 1px 1px black;
+    text-align: center;
+       
+}
+
+#status-bar {
+  font-size: 30px;
+  font-weight: bolder;
+    text-align: center;
+  margin-top: 20px;
+  background-color: bisque;
+
+}
+
+form span:hover, span:focus {
+    color: bisque;
+}
+
+.error {
+  text-align: center;
+  margin-left: 35px;
+  font-weight: bolder;
+}
+
+.goodFeedback {
+  font-weight: bold;
+  font-size:30px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+ .animated {
+width: 90%;
+ }
+ .logo {
+ width: 115px; height: 115px; display: block; text-indent: -9999px;
+ margin: auto;
+}
+h1 {
+  font-size: 50px;
+    text-shadow: 2px 2px 4px #000000;
+      text-align: center;
+      margin-top: 20px;
+}
+fieldset {
+  border: none;
+  display:flex;
+  flex-direction: column;
+  font-size: 30px;
+}
+}
+
+  @media screen and (min-width: 769px; max-width: 1190px) {
+ .animated {
+width: auto;
+ }
+  }
